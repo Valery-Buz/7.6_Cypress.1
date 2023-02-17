@@ -1,0 +1,20 @@
+{
+  "name": "7_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "testmodile": "cypress run --browser chrome --headed --config-file mobile.config.js",
+    "cyp": "cypress run",
+    "cyp:chrome": "cypress run --browser chrome --headed",
+    "cyp:chrless": "cypress run --browser chrome --headless",
+    "cyp:electron": "cypress run --browser electron --headed",
+    "cyp:eleless": "cypress run --browser electron --headless"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  }
+}
