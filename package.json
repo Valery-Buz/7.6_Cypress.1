@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "testmodile": "cypress run --browser chrome --headed --config-file mobile.config.js",
+    "cypress:mobile": "npx cypress open --config-file mobile.config.js",
+    "cypress:notebook": "npx cypress open --config-file notebook.config.js",
     "cyp": "cypress run",
     "cyp:chrome": "cypress run --browser chrome --headed",
     "cyp:chrless": "cypress run --browser chrome --headless",
